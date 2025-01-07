@@ -27,11 +27,7 @@ Modulо stand-alone per Odoo 16 che consente:
         'views/menus.xml',
         'data/reminder_cron.xml',
     ],
-    'assets': {
-        'web.assets_backend': [
-            'collection_management/static/src/css/style.css',
-        ],
-    },
+    
     'installable': True,
     'application': True,
 }
